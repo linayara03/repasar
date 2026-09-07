@@ -1,0 +1,89 @@
+
+h1{
+    background-color: aqua;
+}
+
+#estilo02{
+    color: blueviolet;
+}
+
+p a {
+     font-weight: 180 px; 
+    color: chartreuse;  
+   }
+
+#estilo01{
+    color: blueviolet;
+}
+
+#estilo03{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+   
+   
+    
+}
+h2, h3{
+    background-color: lightblue;
+}
+
+#estilo04{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+    
+#modoOscuro{
+    font-size: 10px;
+   text-align: right;
+   body.dark-mode {
+  --fondo: #1e1e1e;
+  --texto: #f1f1f1;
+  --boton-fondo: #333333;
+  --boton-texto: #ffffff;
+}
+}
+
+/* Variables de color para Tema Claro (por defecto) */
+:root {
+  --fondo: #ffffff;
+  --texto: #222222;
+  --boton-fondo: #e0e0e0;
+  --boton-texto: #000000;
+}
+
+/* Variables de color para Tema Oscuro */
+body.dark-mode {
+  --fondo: #1e1e1e;
+  --texto: #f1f1f1;
+  --boton-fondo: #333333;
+  --boton-texto: #ffffff;
+}
+
+/* Estilos aplicados dinámicamente usando las variables */
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  background-color: var(--boton-fondo);
+  color: var(--boton-texto);
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#btnTema {
+  float: right;
+  font-weight: bold;
+}
