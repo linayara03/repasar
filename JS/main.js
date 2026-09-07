@@ -133,3 +133,12 @@ function alternarModoOscuro() {
     btnTema.textContent = "🌙 Modo Oscuro";
   }
 }
+
+//git init
+// git status
+// git add .
+//git status
+// git commit -m "Primer commit"
+// git status
+// git remote add origin <URL del repositorio>
+// git push origin master
