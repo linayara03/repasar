@@ -1,0 +1,40 @@
+#titulo {
+    color: white;
+    text-align: center;
+    background-color: rgb(66, 63, 63);
+    padding: 7px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#menu {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#nombre {
+    background-color: rgb(145, 132, 132);
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#leer {
+    color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+#titulo2 {
+    color: black;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    margin: 0px;
+}
