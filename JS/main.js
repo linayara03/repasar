@@ -142,3 +142,7 @@ function alternarModoOscuro() {
 // git status
 // git remote add origin <URL del repositorio>
 // git push origin master
+
+//git add  .
+//git commit -m "Segundo commit"
+//git push --set-upstream origin master
